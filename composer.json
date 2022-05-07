@@ -1,0 +1,24 @@
+{
+  "name": "drozg/hillel-composer",
+  "description": "The package will count how many times \"Hillel\" was mentioned in a text",
+  "type": "library",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "Drozg\\HillelComposer\\": "src/"
+    },
+    "files": [
+      "src/HillelCounter.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "DenisRozganyaev",
+      "email": "denis.rozganyaev@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1"
+  }
+}
